@@ -1,8 +1,8 @@
 ---
-- name: Add new user cole
+- name: Add new user manish
   hosts: servera
   tasks:
     - name: Add new user for system
       ansible.builtin.user:
-        name: cole
+        name: manish
         state: present
